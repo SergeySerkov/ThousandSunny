@@ -1,0 +1,351 @@
+@media (max-width: 1690px) {
+    .destinations {
+        &__decor-plus {
+            display: none;
+        }
+    }
+
+    .testimonials {
+        &__decor-circle1 {
+            display: none;
+        }
+
+        &__decor-plus {
+            display: none;
+        }
+        
+        &__decor-circle2 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1610px) {
+    .stories {
+        &__decor-circle1 {
+            display: none;
+        }
+        &__decor-circle2 {
+            display: none;
+        }
+        &__decor-plus {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .top__decor-circle1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1290px) {
+    .top__decor-plus,
+    .top__decor-circle2 {
+        display: none;
+    }
+    .top {
+        &__img {
+            img {
+                max-width: 100%;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .guides {
+        &__decor-circle {
+            display: none;
+        }
+        &__decor-plus-1 {
+            display: none;
+        }
+        &__decor-plus-2 {
+            display: none;
+        }
+    }
+
+    .destinations {
+        &__decor-circle1 {
+            display: none;
+        }
+
+        &__decor-circle2 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1158px) {
+    .explore {
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__descr {
+            padding: 30px 0px 0px 0px;
+            text-align: center;
+        }
+        &__img {
+            img {
+                max-width: 100%;
+            }
+        }
+        &__decor-plus,
+        &__decor-circle {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1158px) {
+    .stories {
+        &__items {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            padding: 20px 0px 0px 0px;
+            margin: 0px 20px 0px 0px;
+        }
+
+        &__title {
+            padding: 30px 0px 30px 0px;
+        }
+
+        &__item-link {
+            padding: 5px 0px 0px 0px;
+        }
+    }
+}
+
+@media (max-width: 1075px) {
+    .destinations {
+        &__items {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            padding: 15px 0px 0px 0px;
+        }
+    }
+}
+
+@media (max-width: 1034px) {
+    .guides {
+        padding: 0px 0px 30px 0px;
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__descr {
+            padding: 30px 0px 0px 0px;
+            text-align: center;
+        }
+        &__img {
+            padding: 30px 0px 0px 0px;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 852px) {
+    .menu {
+        &__list {
+            display: none;
+        }
+    }
+
+    .burger__wrapper {
+        display: block;
+        margin: 15px 10px 0px 0px;
+    }
+
+    .menu__list {
+        background-color: #fff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        z-index: 5;
+        position: absolute;
+        top: 95px;
+        right: 0;
+        transform: translateX(-540%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border-radius: 5px;
+        transition: all 0.5s;
+        opacity: 0;
+        visibility: hidden;
+        margin: 20px 30px 0px 0px;
+        &.active {
+            transform: translateX(0);
+            opacity: 1;
+            visibility: visible;
+        }
+        &-link {
+            margin: 5px 15px;
+        }
+    }
+
+    .btn-log,
+    .btn-reg {
+        color: #fb8f1d;
+        font-size: 16px;
+        line-height: 19px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        padding: 0px 0px 0px 0px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .footer {
+        &__inner {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 828px) {
+    .testimonials {
+        text-align: center;
+
+        &__descr {
+            padding: 0px 0px 0px 0px;
+        }
+
+        &__slider-item {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__descr-rate {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__picture-arrows {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .destinations {
+        padding: 60px 0px 30px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 700px) {
+    .top {
+        &__img {
+            display: none;
+        }
+        &__title {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+}
+
+@media (max-width: 601px) {
+    .stories {
+        &__item {
+            margin: 0px 0px 0px 0px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .destinations {
+        &__title {
+            font-size: 28px;
+            line-height: 48px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .explore {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .stories {
+        &__top {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__title {
+            font-size: 28px;
+            line-height: 40px;
+            padding: 0px 20px 0px 0px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .top {
+        &__selections {
+            width: 320px;
+        }
+        &__inner {
+            padding: 35px 0px 0px 0px;
+        }
+        &__title {
+            padding: 0px 0px 35px 0px;
+        }
+    }
+
+    .testimonials {
+        &__picture-img {
+            max-width: 100%;
+        }
+
+        &__descr-text {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
+
+@media (max-width: 389px) {
+    .destinations {
+        &__top {
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0px 0px 30px 0px;
+        }
+    }
+}
+
+@media (max-width: 367px) {
+    .guides {
+        &__title {
+            font-size: 26px;
+            line-height: 40px;
+        }
+
+        &__text {
+            margin: 20px 0px 20px 0px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+}
